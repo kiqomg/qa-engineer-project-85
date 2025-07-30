@@ -1,2 +1,6 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/kiqomg/qa-engineer-project-85/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kiqomg/qa-engineer-project-85/actions)
+Второй проект в рамках прохождения курса "Инженер по тестированию". Тестирование в продакшене сайта https://codebattle.hexlet.io/. В ходе выполнения проекта подготовлены следующие артефакты:
+- Список требований проекта
+- Список тест-кейсов
+- Статус прохождения тест-кейсов
+- Список с созданными баг-репортами
+- Список с баг-репортами на переоткрытые ошибки
