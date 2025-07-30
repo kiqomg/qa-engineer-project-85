@@ -539,14 +539,26 @@
     Открыта главная страница сайта https://codebattle.hexlet.io/
     Пользователь авторизован
   test-data: |
-    Тестовые данные
+    - Level = 1 звезда
+    - Game Type = With a bot
+    - Time control = 8 минут
+    - Choose task by name or tags = random task
+    - Tags = collections
   steps:
     - Нажать на изображение аватара в правом верхнем углу
     - Выбрать "Settings"
     - Изменить язык программирования в поле "Your weapon"
     - Нажать "Save"
+    - Перейти в лобби https://codebattle.hexlet.io/#lobby
+    - Нажать "Create a game"
+    - Выбрать Level
+    - Выбрать Game Type
+    - Выбрать Time control
+    - Выбрать Choose task by name or tags
+    - Выбрать Tags
+    - Нажать "Create battle"
   expected-result: |
-    Язык программирования пользователя успешно изменен
+    Язык программирования пользователя успешно изменен, он отображается в настройках и при создании игры
 
 - summary: |
     Проверка успешного присоединения друга к игре с другом
