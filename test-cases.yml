@@ -278,6 +278,7 @@
   prerequisites: | 
     Открыта страница https://codebattle.hexlet.io/#lobby
     Пользователь авторизован
+    У пользователя должны быть завершённые игры
   test-data: |
     Тестовые данные
   steps:
